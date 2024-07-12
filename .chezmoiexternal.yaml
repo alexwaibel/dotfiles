@@ -1,5 +1,5 @@
 [".config/nvim"]
-  type = "git-repo"
+  type = "archive"
   url = "https://github.com/nvim-lua/kickstart.nvim/archive/master.tar.gz"
   exact = true
   stripComponents = 1
