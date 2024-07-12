@@ -1,4 +1,4 @@
 .config/nvim:
   type: git-repo
-  url: https://github.com/alexwaibel/kickstart-modular.nvim.git
+  url: git@github.com:alexwaibel/kickstart-modular.nvim.git
   refreshPeriod: 168h
