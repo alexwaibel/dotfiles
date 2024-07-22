@@ -6,3 +6,10 @@ AppData/Local/nvim:
   type: git-repo
   url: https://github.com/alexwaibel/kickstart-modular.nvim.git
   refreshPeriod: 168h
+
+{{ if ne .chezmoi.os "windows" }}
+.config/tmux/plugins:
+  type: git-repo
+  url: https://github.com/tmux-plugins/tpm.git
+  refreshPeriod: 168h
+{{ end }}
