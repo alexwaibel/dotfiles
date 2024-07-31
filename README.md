@@ -9,7 +9,7 @@ My personal dotfiles repository, managed with [chezmoi](https://chezmoi.io/).
 3. `chezmoi init alexwaibel --ssh --apply`
 > [!NOTE]
 > If you're not on a fresh install and have some existing dotfiles do the following sequence of chezmoi commands instead:
-> 1. Initialize chezmoi: `chezmoi init alwaibel --ssh`
+> 1. Initialize chezmoi: `chezmoi init alexwaibel --ssh`
 > 2. Check what files chezmoi will create: `chezmoi diff`
 > 3. If everything looks good, apply the changes: `chezmoi apply -v`
 
